@@ -74,7 +74,7 @@ body{
 }
 
 /*menu header  => dropdown */
-.menu-area .primary-menu #menu-primary-menu #menu-item-1477 > .sub-menu {
+.menu-area .primary-menu #menu-primary-menu li:last-child > .sub-menu {
     position: absolute;
     top:100%;
     left: 0;
@@ -84,17 +84,17 @@ body{
     transition: .3s all;
 }
 
-.menu-area .primary-menu #menu-primary-menu #menu-item-1477 > ul.drop-active {
+.menu-area .primary-menu #menu-primary-menu li:last-child > ul.drop-active {
     height: 190px;
 }
 
-.menu-area .primary-menu #menu-primary-menu #menu-item-1477 > ul li{
+.menu-area .primary-menu #menu-primary-menu li:last-child > ul li{
     list-style: none;
     width: 100%;
 
 }
 
-.menu-area .primary-menu #menu-primary-menu #menu-item-1477 > ul li > a{
+.menu-area .primary-menu #menu-primary-menu li:last-child > ul li > a{
    width: 100%;
    text-decoration: none;
    color: #FFF;
@@ -108,7 +108,7 @@ body{
    
 }
 
-.menu-area .primary-menu #menu-primary-menu #menu-item-1477 > ul li > a:hover{
+.menu-area .primary-menu #menu-primary-menu li:last-child > ul li > a:hover{
     background-color: orange;
 }
 
