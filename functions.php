@@ -17,7 +17,7 @@
                              'id' => 'main-sidebar',
                              'Description' => __('default sidebar', 'portal'),
                              'class' => 'main-sidebar',
-                             'before_title' => '<h3 class="widgettitle">',
+                             'before_title' => '<h4 class="widget-title">',
                              'after_title' => '</h3>' );
             register_sidebar( $sidebar );
 
@@ -28,6 +28,10 @@
  function portal_script(){
     wp_enqueue_style( 'portal-style', get_stylesheet_uri()); // load style vao bien portal-style
     wp_enqueue_script( 'portal-script',get_template_directory_uri() . '/asset/js/index.js',array(), false, true);// de bien cuoi true de load js cuoi file
+
+    if(is_single()){
+        wp_enqueue_script( 'single-script',get_template_directory_uri() . '/asset/js/single.js',array(), false, true);
+    }
  }
 
  add_action('wp_enqueue_scripts','portal_script');

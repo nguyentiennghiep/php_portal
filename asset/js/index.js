@@ -6,8 +6,6 @@ var navBar = document.getElementById("menu-primary-menu");
 var dropEnable = false;
 var collapseEnable = false;
 
-console.log(navBar);
-
 document.querySelector("#menu-primary-menu li:last-child").addEventListener("click", function(){
   if (dropEnable === false) {
     dropDown.classList.add("drop-active");
