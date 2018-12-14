@@ -48,6 +48,12 @@ table , table tr , table td
   max-width: 1080px;
   margin: 0 auto;  
 }
+
+.footer{
+  height: 40px;
+  width: 100%;
+  background-color: #000;
+}
 /* header */
 .header{
     background-color: #FFF;
@@ -385,8 +391,62 @@ table , table tr , table td
 
 /* end single page right column*/
 
+
+/* application custom page  */
+#appplication-page-table{
+  background-color: #fff;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+#appplication-page-table h1{
+  font-weight: 1000;
+  font-size: 35px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#appplication-page-table table:nth-child(2){
+  margin-bottom: 20px;  
+}
+
+#appplication-page-table table{
+  width: 95%;
+  margin-left: 20px;
+}
+
+
+
+#appplication-page-table a{
+  color: #00AAE1;
+  text-decoration: underline;
+}
+
+#appplication-page-table img{
+  width: 200px;
+  height: auto;
+}
+/*end application custom page*/
+
 /* reponsive */
-@media (max-width: 768px) {
+@media (max-width: 880px) {
+    .main-page{
+        flex-direction: column;
+        display: block;
+    }
+    .main-page .left-column{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .main-page .right-column{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
 
     .menu-area .collapse{
         height: 40px;
