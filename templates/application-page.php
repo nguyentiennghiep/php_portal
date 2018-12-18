@@ -13,7 +13,7 @@
 		        <tr>
 		            <td rowspan="3" width="200">メーリングリスト</td>
 		            <td width="400">作成</td>
-		            <td><a href="https://news.mediado.info/?page_id=3042">申請フォーム</a></td>
+		            <td><a href="http://localhost/mail-1/">申請フォーム</a></td>
 		        </tr>
 		        <tr>
 		            <td width="400">削除</td>
