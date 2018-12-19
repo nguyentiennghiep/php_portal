@@ -41,6 +41,7 @@ table , table tr , table td
 .container{
   max-width: 1080px;
   margin: 0 auto;  
+  background-color: #FFF;
 }
 
 .footer{
@@ -483,6 +484,52 @@ table , table tr , table td
 }
 
 /*end post detail*/
+
+
+/* contact-form css */
+.container .form-area{
+  margin-left:20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container .form-area p{
+  margin-top: 20px;
+}
+
+.container .form-area{
+  font-size:14px;
+}
+
+.container .form-area label span:nth-child(1){
+  color:#ff0000;
+}
+
+.container .form-area input{
+  height: 38px;
+  width: 660px;
+  font-size: 14px;
+  background-color: #f0f0f0;
+  border:none;
+  border:1px solid #000;
+  padding: 8px;
+}
+
+.container .form-area textarea{
+  height: 200px;
+  width: 880px;
+  background-color: #f0f0f0;
+  font-size: 18px;
+}
+
+.container .form-area select{
+  height: 30px;
+  background-color: #f0f0f0;
+  font-size: 14px;
+}
+
+
+/* end contact-form */
 
 /* reponsive */
 @media (max-width: 880px) {
